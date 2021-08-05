@@ -11,7 +11,7 @@
 ## Working of Siamese Network.
 ![Siamese-network-for-embedding-the-feature-maps-into-a-constant-vector](https://user-images.githubusercontent.com/53303541/128300246-2fdd584d-c237-44e2-927f-013797980b5c.png)
                                                                           
-                                                                     Image src "ResearchGate"
+        Image src "ResearchGate"
 
 Siamese, as the name suggests, comes from ‘Siamese Twins’, where we use two or more network(here, CNN in the case of images) which uses shared weights with intention to learn similarity and dissimilarity between images. The network outputs an n-dimensional embedding where each direction represents some visual pattern of the image.
 
