@@ -20,3 +20,7 @@ Siamese, as the name suggests, comes from ‘Siamese Twins’, where we use two 
 
 ## Siamese Model artchitecture
 ![siamese](https://user-images.githubusercontent.com/53303541/128301830-7d007846-1575-4a68-8543-f57ebc55767a.png)
+
+## Accuracy and Loss
+![training](https://user-images.githubusercontent.com/53303541/128306128-e578579d-120b-4a9e-b3b8-5a4148c114e6.png)
+![testing](https://user-images.githubusercontent.com/53303541/128306136-bac2408f-d156-4c17-8c95-d917ad8468c3.png)
