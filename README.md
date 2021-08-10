@@ -1,9 +1,23 @@
 # Siamese-Network-for-voice-pair-matching
 
-## mfcc and mel Spectogram feature
-### mfcc
+#### The main features of a audio signal
+- MFCC (Mel-Frequency Cepstral Coefficients)
+- Mel Spectogram
+-  Zero-crossing rate
+- Spectral-roll off
+- Spectral flux
+- Chroma features
+## MFCC and Mel Spectogram Feature
+#### The MFCC feature extraction technique basically includes windowing the signal, applying the DFT, taking the log of the magnitude, and then warping the frequencies on a Mel scale, followed by applying the inverse DCT. MFCC is a very compressible representation, often using just 20 or 13 coefficients instead of 32-64 bands in Mel spectrogram.
+![mfcc](https://user-images.githubusercontent.com/53303541/128922693-cf6f6dba-06bd-4836-9586-d6575a00d931.jpeg)
+                                                            
+                                                        img src('Towards Data Science')
+                                                        
+#### MFCC
 ![anmol7_mfcc](https://user-images.githubusercontent.com/53303541/128305542-eb766c39-7a12-4e87-9f7c-008ce98c4dad.png)
-### mel Spectogram
+
+
+#### Mel Spectogram
 ![mel](https://user-images.githubusercontent.com/53303541/128305659-9409cd26-e77a-4dea-b834-71a1e29aff07.png)
 
 
