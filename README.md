@@ -20,6 +20,20 @@
 #### Mel Spectogram
 ![mel](https://user-images.githubusercontent.com/53303541/128305659-9409cd26-e77a-4dea-b834-71a1e29aff07.png)
 
+## Positive-Negative training testing pairs
+When training siamese networks we need to have positive pairs and negative pairs:
+
+#### Positive pairs: Two images that belong to the same class (ex., two images of the same person, two examples of the same signature, etc.)
+#### Negative pairs: Two images that belong to different classes (ex., two images of different people, two examples of different signatures, etc.)
+![pn](https://user-images.githubusercontent.com/53303541/128925227-27c712d7-abe5-40ea-beba-83d0f98ca3aa.png)
+
+
+## Euclidean Distance function and Constrastive loss function
+Let (X1, X2) be the input image pair, Gw be the function mapping producing low dimensional representations(where w represents the parameters), Y be the ground truth label denoting similar or not and Dw represents the euclidean distance.
+![cl](https://user-images.githubusercontent.com/53303541/128926857-3476dd3d-6048-4c3c-8842-cc27b22131c5.png)
+
+Contrastive loss bear a resemblance to the traditional cross entropy loss. The first term in the loss function takes care of similar pairs(Y=0) such that Dw becomes 0. The second term takes care of dissimilar pairs(Y=1) such that Dw becomes at least m.
+![clt](https://user-images.githubusercontent.com/53303541/128927212-22caa618-55f8-4bff-b17a-1ac3f47ae4bd.png)
 
 
 ## Working of Siamese Network.
